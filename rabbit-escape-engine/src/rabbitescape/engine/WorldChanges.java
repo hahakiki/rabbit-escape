@@ -62,6 +62,7 @@ public class WorldChanges
             world.recalculateWaterRegions( point );
         }
 
+        //There is a fix if rabbitsToSave.size () has a value
         if ( rabbitsToSave.size() > 0 )
         {
             updateStats();
