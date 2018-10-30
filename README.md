@@ -4,6 +4,7 @@ Rabbit Escape
 Rabbit Escape is a mobile and desktop game inspired by Lemmings
 and Pingus in which you must rescue some rabbits from a hostile
 environment by giving them special abilities.
+
 Rabbit Escape는 Lemmings에서 영감을 받은 모바일, pc 게임이고
 그들에게 특별한 능력을 부여하여 적대적인 환경에서 Pingus라 하는 토끼들을 구출해야 한다.
 
