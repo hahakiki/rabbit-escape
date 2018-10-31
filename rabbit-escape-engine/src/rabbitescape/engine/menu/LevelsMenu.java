@@ -61,6 +61,7 @@ public class LevelsMenu extends Menu
     {
         int lastEnabled =
             levelsCompleted.highestLevelCompleted( levelsDir ) + 1;
+        //Ensure that levelsDir has a canonical name in the CFG_LEVELS_COMPLETED string Set
 
         for ( IdxObj<MenuItem> item : enumerate1( items ) )
         {
