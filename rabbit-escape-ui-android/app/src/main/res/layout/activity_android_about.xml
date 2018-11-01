@@ -29,7 +29,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/aboutOkButton"
-                android:onClick="onOkClicked"
+                android:onClick="onOkClicked"  // just call finish() from onOkClicked
                 android:layout_weight="1"/>
 
         </LinearLayout>
