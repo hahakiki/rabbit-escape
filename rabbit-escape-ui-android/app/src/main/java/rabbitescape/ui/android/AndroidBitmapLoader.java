@@ -27,6 +27,7 @@ public class AndroidBitmapLoader implements BitmapLoader<AndroidBitmap>
     public AndroidBitmap load( String name, int tileSize )
     {
         reAssert( Arrays.binarySearch( SIZES, tileSize ) >= 0 );
+        //If it is false after checking the condition, the AssertionError method is returned.
 
         String resourcePath = "images" + tileSize + "/" + name + ".png";
 
