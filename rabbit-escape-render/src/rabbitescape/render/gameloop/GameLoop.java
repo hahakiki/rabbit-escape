@@ -44,7 +44,7 @@ public class GameLoop
 
     public void run()
     {
-        resetClock();
+        resetClock(); // Convert to current time
         physics.init();
 
         while( running )
