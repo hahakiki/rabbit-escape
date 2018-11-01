@@ -22,6 +22,7 @@ public class CompletedLevelWinListener implements LevelWinListener
     @Override
     public void won()
     {
+        //Check the number that matches the canonical name and compare with levelNumber
         if ( levelsCompleted.highestLevelCompleted( levelsDir ) < levelNumber )
         {
             levelsCompleted.setCompletedLevel( levelsDir, levelNumber );
