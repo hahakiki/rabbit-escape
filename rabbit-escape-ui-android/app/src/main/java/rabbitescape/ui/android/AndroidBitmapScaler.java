@@ -12,7 +12,8 @@ public class AndroidBitmapScaler implements BitmapScaler<AndroidBitmap>
     public AndroidBitmap scale( AndroidBitmap originalBitmap, double scale )
     {
         reAssert( scale != 1.0 );
-
+        //If it is false after checking the condition, the AssertionError method is returned.
+        
         Bitmap origImage = originalBitmap.bitmap;
 
         int width  = (int)( origImage.getWidth() * scale );
