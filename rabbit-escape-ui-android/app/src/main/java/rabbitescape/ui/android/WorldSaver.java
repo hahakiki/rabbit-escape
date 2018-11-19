@@ -63,7 +63,7 @@ public class WorldSaver
 
     private String[] actuallySaveWorld()
     {
-        world.changes.revert();
+        world.changes.revert(); // revert and clear
         return TextWorldManip.renderCompleteWorld( world, true );
     }
 
