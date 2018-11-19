@@ -219,6 +219,7 @@ public class AndroidGameActivity extends RabbitEscapeActivity
     }
 
     public void onPauseClicked( View view )
+    //Notify GeneralPhysics object to pause
     {
         updatePauseButton( gameSurface.togglePaused() );
     }
