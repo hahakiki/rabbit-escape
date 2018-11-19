@@ -311,7 +311,7 @@ public class World
             thing.step( this );
         }
 
-        changes.rememberWhatWillHappen();
+        changes.rememberWhatWillHappen(); // Create an arraylist for rabbitsToEnter
 
         changes.apply();
 
