@@ -20,7 +20,7 @@ public class AndroidInput implements Input
         {
             worldSaver.waitUnlessSaveSignal( wait_time );
         }
-        worldSaver.check();
+        worldSaver.check(); //Call the notify() function
     }
 
     @Override
