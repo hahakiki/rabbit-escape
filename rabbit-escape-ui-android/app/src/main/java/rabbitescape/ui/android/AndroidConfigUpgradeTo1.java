@@ -54,7 +54,7 @@ public class AndroidConfigUpgradeTo1 implements IConfigUpgrade
 
         if ( doneSomething )
         {
-            editor.commit();
+            editor.commit(); // commit() is done to save the data.
         }
     }
 
