@@ -466,7 +466,8 @@ public class SwingGameLaunch implements GameLaunch
 
         if ( explode )
         {
-            world.changes.explodeAllRabbits();
+            world.changes.explodeAllRabbits(); 
+            // Change the state of the rabbit to RABBIT_EXPLODING
         }
     }
 
