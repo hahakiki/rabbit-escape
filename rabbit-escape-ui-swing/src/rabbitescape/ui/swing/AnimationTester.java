@@ -231,7 +231,7 @@ public class AnimationTester extends JFrame
                     {
                         for ( int j = 0 ; j < 3 ; j++ )
                         {
-                            animationNames[i][j] = NONE;
+                            animationNames[i][j] = NONE; // clear all animations
                         }
                     }
 
