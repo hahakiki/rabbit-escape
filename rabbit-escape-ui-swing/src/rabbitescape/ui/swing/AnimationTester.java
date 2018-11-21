@@ -582,7 +582,7 @@ public class AnimationTester extends JFrame
                 counter.inc();
                 return counter;
             }
-            if ( null == firstFrameDumped )
+            if ( null == firstFrameDumped ) // Before creating objects
             {
                 frameDumper = new FrameDumper();
                 firstFrameDumped = new FrameCounter( counter );
